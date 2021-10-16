@@ -31,7 +31,16 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Homecontroller::index');
+$routes->add('/somos', 'Aboutcontroller::index');
+$routes->add('/estudiantes', 'Studentcontroller::index');
+$routes->add('/matriculas', 'Enrollmentcontroller::index');
+$routes->add('/eventos', 'Eventscontroller::index');
+$routes->add('/login', 'Logincontroller::index');
+$routes->add('/backoffice', 'Backofficecontroller::index');
+// $routes->add('/model', 'Usercontroller::index');
+
+
 
 /*
  * --------------------------------------------------------------------
