@@ -1,0 +1,102 @@
+/**
+ * 
+ * @format
+ */
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-background {
+  padding-left: 0;
+}
+
+a:visited,
+a:link,
+a:focus,
+a:hover,
+a:active {
+  list-style: none;
+  text-decoration: none;
+}
+
+#navbarDefault .nav-item:hover {
+  background-color: #777;
+  border-radius: 5%;
+}
+
+body {
+  background: #eee;
+}
+aside {
+  width: 20%;
+  height: 600px;
+  margin-top: 53px;
+  float: left;
+  background-color: lightgray;
+}
+.section-default {
+  margin-top: 56px;
+  margin-bottom: 50px;
+}
+.section-backoffice {
+  width: 80%;
+  height: 600px;
+  float: left;
+  margin-top: 56px;
+}
+#navAside a {
+  color: #fff;
+}
+
+.carousel-item {
+  background: #000;
+  height: 350px;
+  color: white;
+  position: relative;
+}
+.container-carousel {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 30px !important;
+  padding-bottom: 50px;
+}
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.video {
+  width: 560px;
+  height: 315px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+#galery .col-3 {
+  margin: 0 !important;
+  padding: 15px;
+}
+
+#galery img {
+  width: 100%;
+  height: 230px;
+}
+#galery img:hover {
+  border: 5px solid #fff;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+}
